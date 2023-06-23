@@ -3,6 +3,7 @@
 This is a simple library API that allows you to fetch books by genre, submit book pick-up schedules, and retrieve book information and schedules. This api made for Cosmart-Pretest 
 
 ## Installation
+### Debug Mode
 
 1. Clone the repository:
 
@@ -18,6 +19,26 @@ This is a simple library API that allows you to fetch books by genre, submit boo
     go run main.go
     ```
     Now the program will run at your localhost:8080
+
+### Build Mode
+#### Windows :
+
+Just run this code below :
+
+   ```bash
+   go build
+   ```
+Then file `cosmart-pretest.exe` will be generated, after that just run `/.cosmart-pretest.exe` and the server will start on `http:/localhost:8080`
+
+#### Linux :
+Just run this code below :
+
+   ```bash
+   go build
+   ```
+Then file `cosmart-pretest` will be generated, after that just run `/.cosmart-pretest` and the server will start on `http:/localhost:8080`
+
+
 
 ## Usage
 
